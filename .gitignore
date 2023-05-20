@@ -6,3 +6,6 @@
 
 # Compiled dynamic libraries
 *.so
+
+# Compiled execution files
+*.exe
