@@ -1,0 +1,8 @@
+# Compiled objects files
+*.o
+
+# Compiled static libraries
+*.lib
+
+# Compiled dynamic libraries
+*.so
