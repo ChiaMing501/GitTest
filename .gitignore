@@ -2,10 +2,13 @@
 *.o
 
 # Compiled static libraries
-*.lib
+*.a
 
 # Compiled dynamic libraries
 *.so
 
 # Compiled execution files
 *.exe
+
+# Build directories
+/buildDir/
