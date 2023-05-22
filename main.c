@@ -1,12 +1,15 @@
 #include <stdio.h>
+#include "userValue.h"
 
 void showUserMessage(const char *msg);
 
 int main(int argc, char *argv[])
 {
-    printf("Hello World\n");
+    int inputValue  = 15;
+    int resultValue = 0;
     
-    showUserMessage("I am king of the world");
+    resultValue = getUserDoubleValue(inputValue);
+    printf("Double value of %d is %d\n", inputValue, resultValue);
 
     return 0;
 
